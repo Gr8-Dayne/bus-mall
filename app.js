@@ -63,6 +63,9 @@ var pickRandomImages = function(){
   previousImage.push(centerImage);
 }
 
+/// Chart time
+// var ctx = document.getElementById('myChart');
+
 // looping through the images?
 for(var i = 0; i < img.length; i++){
   allImages.push(new Images(img[i].name, img[i].imageSrc));
