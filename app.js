@@ -1,6 +1,6 @@
 'use strict';
 
-/// This code was used with the aid of fellow classmates. ///
+/// This code was used with the aid of fellow classmates and various internet recources. ///
 
 // Img sources/designations
 var img = [
@@ -77,7 +77,7 @@ var renderRandomImages = function(){
 var leftEl = document.getElementById('left-image');
 var centerEl = document.getElementById('center-image');
 var rightEl = document.getElementById('right-image');
-leftEl.setAttribute('src', allImages[0].imageSrc);
+  leftEl.setAttribute('src', allImages[0].imageSrc);
   centerEl.setAttribute('src', allImages[1].imageSrc);
   rightEl.setAttribute('src', allImages[2].imageSrc);
   leftImagePara.textContent = allImages[0].name;
