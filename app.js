@@ -1,6 +1,6 @@
 'use strict';
 
-/// This code was used with the aid of fellow classmates. ///
+/// This code was used with the aid of fellow classmates and various internet recources. ///
 
 // Img sources/designations
 var img = [
@@ -63,6 +63,9 @@ var pickRandomImages = function(){
   previousImage.push(centerImage);
 }
 
+/// Chart time
+// var ctx = document.getElementById('myChart');
+
 // looping through the images?
 for(var i = 0; i < img.length; i++){
   allImages.push(new Images(img[i].name, img[i].imageSrc));
@@ -77,7 +80,7 @@ var renderRandomImages = function(){
 var leftEl = document.getElementById('left-image');
 var centerEl = document.getElementById('center-image');
 var rightEl = document.getElementById('right-image');
-leftEl.setAttribute('src', allImages[0].imageSrc);
+  leftEl.setAttribute('src', allImages[0].imageSrc);
   centerEl.setAttribute('src', allImages[1].imageSrc);
   rightEl.setAttribute('src', allImages[2].imageSrc);
   leftImagePara.textContent = allImages[0].name;
